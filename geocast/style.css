@@ -1,0 +1,63 @@
+@charset "UTF-8";
+
+* {
+    padding: 0px;
+
+    margin: 0px;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+
+:root {
+    --cor-fundo: #4484F2;
+    --cor-01: #B4B7F5;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: var(--cor-fundo);
+    text-align: center;
+    background: black url('assets/images/exxon-1.jpg') no-repeat fixed;
+    background-size: cover;
+}
+
+main {
+    background-color: rgba(0, 0, 0, 0.39);
+    height: 70vh;
+    width: 65%;
+    margin: auto;
+    margin-top: 10%;
+    border-radius: 15px;
+}
+
+main > h1{
+    font-size: 2.5em;
+    text-transform: uppercase;
+    font-family: Merriweather;
+}
+
+main > p {
+    margin-top: 10px;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+}
+
+footer a:active {
+    text-decoration: underline;
+    color: white;
+}
+
+main > audio {
+    margin-top: 50px;
+}
+
+footer {
+    margin-top: 70px;
+    background-color: black;
+    padding: 7px;
+    color: white;
+    font-size: 0.55em;
+}
