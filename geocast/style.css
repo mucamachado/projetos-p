@@ -13,6 +13,11 @@
     --cor-01: #B4B7F5;
 }
 
+@font-face {
+    font-family: 'CFP';
+    src: url('.//assets/fonts/CFPunkAttitude-Regular.ttf');
+}
+
 body {
     font-family: Arial, Helvetica, sans-serif;
     background-color: var(--cor-fundo);
@@ -33,7 +38,7 @@ main {
 main > h1{
     font-size: 2.5em;
     text-transform: uppercase;
-    font-family: Merriweather;
+    font-family: 'CFP';
 }
 
 main > p {
